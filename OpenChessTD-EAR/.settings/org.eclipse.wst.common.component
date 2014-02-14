@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OpenChessTD-EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="OpenChessTD.war" deploy-path="/" handle="module:/resource/OpenChessTD/OpenChessTD">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-4.11.jar" deploy-path="/lib" handle="module:/classpath/var/DevLibs/junit-4.11.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OpenChessTD-module.jar" deploy-path="/lib" handle="module:/resource/OpenChessTD-module/OpenChessTD-module">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OpenChessTD-Webdriver.jar" deploy-path="/lib" handle="module:/resource/OpenChessTD-Webdriver/OpenChessTD-Webdriver">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OpenChessTD-SwingView.jar" deploy-path="/lib" handle="module:/resource/OpenChessTD-SwingView/OpenChessTD-SwingView">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
