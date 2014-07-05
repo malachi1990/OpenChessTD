@@ -9,7 +9,6 @@
 <body>
     <h1 id="greeting">Hello</h1>
     <!-- load Dojo -->
-    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.9.1/dojo/dojo.js"
-               data-dojo-config="async: true"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.0/dojo/dojo.js"></script> 
 </body>
 </html>
